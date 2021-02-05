@@ -1,5 +1,192 @@
 [
   {
+    "name": "MRQy",
+    "category": "Multipurpose",
+    "shortDescription": "A new quality assessment and evaluation tool for MRI data",
+    "imageFile": "MRQy.png",
+    "mainURL": "https://github.com/ccipd/MRQy",
+    "repoURL": "https://github.com/ccipd/MRQy",
+    "principalDevelopers": "Amir Reza Sadri, Satish E. Viswanath",
+    "longDescription": "MRQy is a new open-source quality control and assurance tool for MR imaging data, which can be used as a pre-analytical step when developing computational pipelines including radiomics, image analysis, and machine learning. MRQy leverages a Python-JavaScript framework and has been specialized for analyzing large-scale MRI cohorts through the following modules: (i) automatic foreground detection for any MR image from anybody region, from which it will (ii) extract a series of imaging-specific metadata and quality measures generalized to work with any structural MR sequence, in order to (iii) compute representations that capture relevant MR image quality trends in a data cohort. These are presented within a specialized HTML5-based front-end which can be easily interrogated by the end-user to identify batch effects and imaging artifacts towards curation of MR imaging cohorts of acceptable quality for model development.",
+    "keywords": [
+      "Quality Control",
+      "Quality Assessment",
+      "Imaging Cohort Curation",
+      "Site Variations",
+      "Scanner Variations",
+      "Batch Effects",
+      "Foreground Detection",
+      "Metadata",
+      "Image Quality Metrics (IQMs)",
+      "Processed Data"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "MRQy: An Open-Source Tool for Quality Control of MR Imaging Data",
+        "referenceURL": "https://arxiv.org/abs/2004.04871v2"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Github wiki homepage (4 pages)",
+        "URL": "https://github.com/ccipd/MRQy/wiki"
+      }
+    ],
+    "dateAddedToMRHub": "2020-08-14",
+    "dateSoftwareLastUpdated": "2020-07-10",
+    "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
+    "citationCount": "0"
+  },
+  {
+    "name": "TED",
+    "category": "Reconstruction",
+    "shortDescription": "A Matlab toolbox for Temporal Differences (TED) Compressed Sensing - a method for fast dynamic MRI",
+    "imageFile": "TED.png",
+    "mainURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+    "repoURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+    "principalDevelopers": "Efrat Shimron, William Grissom, Haim Azhari",
+    "longDescription": "TED is a Compressed Sensing method for rapid dynamic MRI which enables reconstruction from highly subsampleded k-space data. It was demonstrated in our paper for reconstruction of temperature change in MR-guided-HIFU, yet it is general and hence can be applied to other dynamic MRI datasets. It is suitable for single-coil and multi-coil acquisitions.",
+    "keywords": [
+      "reconstruction",
+      "dynamic MRI",
+      "single coil",
+      "parallel imaging",
+      "undersampling",
+      "sparsity",
+      "temperature reconstruction",
+      "MRgHIFU"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Temporal differences (TED) compressed sensing: a method for fast MRgHIFU temperature imaging",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4352"
+      }
+    ],
+    "extraResources": [
+      {
+      }
+    ],
+    "dateAddedToMRHub": "2020-07-11",
+    "dateSoftwareLastUpdated": "2020-05-09",
+    "citationSearchString": "",
+    "citationCount": "0"
+  },
+  {
+    "name": "CORE-Deblur",
+    "category": "Reconstruction",
+    "shortDescription": "A Matlab toolbox for CORE-Deblur - a method for accelerating Compressed Sensing Parallel MRI reconstruction",
+    "imageFile": "DEBLUR2.png",
+    "mainURL": "https://github.com/EfratShimron/CORE_Deblur_toolbox",
+    "repoURL": "https://github.com/EfratShimron/CORE_Deblur_toolbox",
+    "principalDevelopers": "Efrat Shimron, Andrew Webb, Haim Azhari",
+    "longDescription": "CORE-Deblur is a general parallel-MRI reconstruction method which reduces the number of Compressed Sensing iterations by 10-fold. This toolbox includes Matlab code and demonstrations of the method for in-vivo datasets",
+    "keywords": [
+      "reconstruction",
+      "parallel imaging",
+      "Compressed Sensing",
+      "undersampling",
+      "sparsity"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "CORE-Deblur: Parallel MRI Reconstruction by Deblurring using Compressed Sensing",
+        "referenceURL": "https://www.sciencedirect.com/science/article/pii/S0730725X20301879?dgcid=coauthor"
+      }
+    ],
+    "extraResources": [
+      {
+      }
+    ],
+    "dateAddedToMRHub": "2020-07-11",
+    "dateSoftwareLastUpdated": "2020-05-14",
+    "citationSearchString": "005ce859bd64cfcc9c2990f384cbea458e215be6",
+    "citationCount": "0"
+  },
+  {
+    "name": "ExploreASL",
+    "category": "Image processing",
+    "shortDescription": "Pipeline and toolbox for image processing, QC and visualization of arterial spin labeling perfusion MR images",
+    "imageFile": "ExploreASL.png",
+    "mainURL": "https://ExploreASL.org",
+    "repoURL": "https://github.com/ExploreASL/ExploreASL",
+    "principalDevelopers": "Henk Mutsaerts, Jan Petr, Michael Stritt, Pieter Vandemaele, Paul Groot",
+    "longDescription": "ExploreASL is designed as a multi-OS, open source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators. It is based on Matlab, SPM, CAT12, LST. ExploreASL provides a complete head - to - tail approach that runs fully automatically, encompassing all necessary tasks from data import and structural segmentation, registration and normalization, up to CBF quantification.In addition, the software package includes and quality control(QC) procedures and region - of -interest(ROI) as well as voxel - wise analysis on the extracted data.To - date, ExploreASL has been used for processing~10000 ASL datasets from all major MRI vendors and ASL sequences, and a variety of patient populations, representing~30 studies.The ultimate goal of ExploreASL is to combine data from multiple studies to identify disease related perfusion patterns that may prove crucial in using ASL as a diagnostic took and enhance our understanding of the interplay of perfusion and structural changes in neurodegenerative pathophysiology. Additionally, this (semi-) automatic pipeline allows us to minimize manual intervention, which increases the reproducibility of studies.",
+    "keywords": [
+      "ASL",
+      "perfusion",
+      "MRI",
+      "image processing",
+      "quality control",
+      "clinical"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Mutsaerts, H, Petr, J, Groot, P, Vandemaele, P, et al. ExploreASL: An Image Processing Pipeline for Multi-Center ASL Perfusion MRI Studies. NeuroImage. 2020, Jun 8;219:117031)",
+        "referenceURL": "https://pubmed.ncbi.nlm.nih.gov/32526385/"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Video Tutorials on the website",
+        "URL": "https://sites.google.com/view/exploreasl/exploreasl/videotutorials"
+      }
+    ],
+    "dateAddedToMRHub": "2020-07-07",
+    "dateSoftwareLastUpdated": "2020-07-09",
+    "citationSearchString": "10.1016/j.neuroimage.2020.117031",
+    "citationCount": "0"
+  },
+  {
+    "name": "QMRITools",
+    "category": "Multipurpose",
+    "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
+    "imageFile": "QMRITools.png",
+    "mainURL": "https://mfroeling.github.io/QMRITools/",
+    "repoURL": "https://github.com/mfroeling/QMRITools",
+    "principalDevelopers": "Martijn Froeling",
+    "longDescription": "QMRITools is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data. The toolbox does not provide a GUI and its primary goal is to allow for fast and batch data processing, and facilitate development and prototyping of new functions. The core of the toolbox contains various functions for data manipulation and restructuring. The toolbox was developed mostly in the context of quantitative muscle (Froeling et al. 2012), nerve and cardiac magnetic resonance imaging. The library of functions grows along with the research it is used for and started as a toolbox to analyze DWI data of muscle. Since then it has grown to include many other features such as cardiac analysis (tagging and T1 mapping), dixon reconstruction, EPG modeling and fitting, j-coupling simulations and more. It currently contains over 350 custom functions (over 20.000 lines of code) complete with documentation and demonstrations.",
+    "keywords": [
+      "Diffusion tensor imaging",
+      "Mathematica",
+      "Image Analysis",
+      "Simulation",
+      "Visualisation",
+      "Spectroscopy",
+      "Image processing",
+      "Cardiac MRI",
+      "Dixon reconstruction",
+      "EPG based T2 fitting"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "JOSS publication. QMRTools: a Mathematica toolbox for quantitative MRI analysis.",
+        "referenceURL": "https://joss.theoj.org/papers/10.21105/joss.01204"
+      },
+      {
+        "referenceText": "First use of the toolbox. Diffusion‐tensor MRI reveals the complex muscle architecture of the human forearm",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.23608"
+      },
+      {
+        "referenceText": "First reproducibility evaluation. Reproducibility of diffusion tensor imaging in human forearm muscles at 3.0 T in a clinical setting",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.22477"
+      },
+      {
+        "referenceText": "Recent multi center validation. Multi‐center evaluation of stability and reproducibility of quantitative MRI measures in healthy calf muscles",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4119"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Online documention using Mathematica documentions",
+        "URL": "https://mfroeling.github.io/QMRITools/htmldoc/guide/QMRITools.html"
+      }
+    ],
+    "dateAddedToMRHub": "2020-05-25",
+    "dateSoftwareLastUpdated": "2020-06-26",
+    "citationSearchString": "CorpusID:195755688",
+    "citationCount": "0"
+  },
+  {
     "name": "CORE-PI",
     "category": "Reconstruction",
     "shortDescription": "A Matlab toolbox for CORE-PI - a parameter-free parallel MRI reconstruction method",
@@ -27,9 +214,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-12-25",
-    "dateSoftwareLastUpdated": "2020-01-06",
+    "dateSoftwareLastUpdated": "2020-05-09",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
-    "citationCount": "0"
+    "citationCount": "1"
   },
   {
     "name": "MRIReco.jl",
@@ -62,7 +249,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-08-08",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -97,9 +284,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2020-01-15",
+    "dateSoftwareLastUpdated": "2020-07-19",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "26"
+    "citationCount": "42"
   },
   {
     "name": "Gannet",
@@ -136,7 +323,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "134"
+    "citationCount": "234"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -173,9 +360,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-30",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-04-27",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "17"
+    "citationCount": "29"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -207,7 +394,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "1"
+    "citationCount": "5"
   },
   {
     "name": "MRtrix3",
@@ -241,9 +428,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-18",
+    "dateSoftwareLastUpdated": "2020-08-01",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "11"
+    "citationCount": "96"
   },
   {
     "name": "gammaSTAR",
@@ -317,7 +504,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2019-12-20",
+    "dateSoftwareLastUpdated": "2020-07-29",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -361,9 +548,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2019-10-31",
+    "dateSoftwareLastUpdated": "2020-07-15",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "32"
+    "citationCount": "57"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -413,9 +600,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-25",
+    "dateSoftwareLastUpdated": "2020-08-12",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "289"
+    "citationCount": "496"
   },
   {
     "name": "Gadgetron",
@@ -453,9 +640,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-02",
+    "dateSoftwareLastUpdated": "2020-08-06",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "102"
+    "citationCount": "170"
   },
   {
     "name": "gpuNUFFT",
@@ -485,9 +672,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2018-01-30",
+    "dateSoftwareLastUpdated": "2020-07-15",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "23"
+    "citationCount": "31"
   },
   {
     "name": "ISMRMRD",
@@ -517,9 +704,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-08-14",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "13"
+    "citationCount": "23"
   },
   {
     "name": "Low Field Simulator",
@@ -553,7 +740,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "3"
+    "citationCount": "7"
   },
   {
     "name": "Pulseq",
@@ -584,7 +771,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-10-02",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "11"
+    "citationCount": "19"
   },
   {
     "name": "MRiLab",
@@ -623,7 +810,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "15"
+    "citationCount": "21"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -656,7 +843,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "35"
+    "citationCount": "77"
   },
   {
     "name": "QUIT",
@@ -693,9 +880,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-12-19",
+    "dateSoftwareLastUpdated": "2020-07-31",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "4"
+    "citationCount": "17"
   },
   {
     "name": "JEMRIS",
@@ -726,7 +913,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-06-24",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "35"
+    "citationCount": "71"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -756,9 +943,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-15",
+    "dateSoftwareLastUpdated": "2020-08-14",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "77"
+    "citationCount": "132"
   },
   {
     "name": "qMRLab",
@@ -787,9 +974,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-07",
+    "dateSoftwareLastUpdated": "2020-08-06",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "8"
+    "citationCount": "19"
   },
   {
     "name": "Yarra Framework",
@@ -824,9 +1011,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2020-01-08",
+    "dateSoftwareLastUpdated": "2020-07-22",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
-    "citationCount": "3"
+    "citationCount": "2"
   },
   {
     "name": "DIPY",
@@ -873,8 +1060,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2020-01-28",
+    "dateSoftwareLastUpdated": "2020-08-02",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "228"
+    "citationCount": "393"
   }
 ]
