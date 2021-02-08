@@ -1,0 +1,237 @@
+[{
+    "title": "Pharmacokinetic modeling of dynamic contrast‐enhanced MRI using a reference region and input function tail",
+    "category": "Modeling",
+    "shortDescription": "Quantitative analysis of dynamic contrast‐enhanced MRI (DCE‐MRI) requires an arterial input function (AIF) which is difficult to measure. We propose the reference region and input function tail (RRIFT) approach which uses a reference tissue and the washout portion of the AIF. ",
+    "imageFile": "https://gitlab.com/notZaki/rrift/-/raw/master/imgs/gbmCurves.png",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27913",
+    "authors": ["Zaki Ahmed", "Ives R. Levesque"],
+    "keywords": ["DCE", "cancer", "perfusion"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://nbviewer.jupyter.org/github/Notebook-Factory/RRFIT_notebooks/blob/main/Initial%20notebook.ipynb"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/MPUmri/RRIFT"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/RRFIT_notebooks"
+        }
+        ]
+},
+{
+    "title": "A gradient optimization toolbox for general purpose time‐optimal MRI gradient waveform design",
+    "category": "Pulse sequence",
+    "shortDescription": "To introduce and demonstrate a software library for time‐optimal gradient waveform optimization with a wide range of applications. The software enables direct on‐the‐fly gradient waveform design on the scanner hardware for multiple vendors.",
+    "imageFile": "https://onlinelibrary.wiley.com/cms/asset/71190c80-5a97-47aa-a4fe-bd5f29621b39/mrm28384-fig-0007-m.png",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28384",
+    "authors": ["Michael Loecher", "Daniel B. Ennis"],
+    "keywords": ["Gradient", "Optimization"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://notebook-factory.github.io/gropt_book/intro"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/cmr-group/gropt"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/gropt_book"
+        }
+        ]
+},
+{
+    "title": "Automatic In-line Quantitative Myocardial Perfusion Mapping: processing algorithm and implementation",
+    "category": "Perfusion",
+    "shortDescription": "An inline perfusion flow mapping workflow is proposed and demonstrated on normal volunteers. Initial evaluation demonstrates this fully automated solution for the respiratory MOCO, arterial input function left ventricle mask detection, and pixel‐wise mapping, from free‐breathing myocardial perfusion imaging.",
+    "imageFile": "https://github.com/xueh2/QPerf/raw/master/images/BTEX_pixel_size_mapping.JPG",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27954",
+    "authors": ["Hui Xue", "Peter Kellman"],
+    "keywords": ["Gradient", "Optimization"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://notebook-factory.github.io/QPerf_book/intro"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/xueh2/QPerf"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/QPerf_book"
+        }
+        ]
+},
+{
+    "title": "Deep learning how to fit an intravoxel incoherent motion model to diffusion‐weighted MRI",
+    "category": "Deep learning",
+    "shortDescription": "This prospective clinical study assesses the feasibility of training a deep neural network (DNN) for intravoxel incoherent motion (IVIM) model fitting to diffusion‐weighted MRI (DW‐MRI) data and evaluates its performance.",
+    "imageFile": "https://notebook-factory.github.io/deep_ivim_book/images/03/deep_ivim_plotly_3_0.png",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27910",
+    "authors": ["Sebastiano Barbieri","Harriet C. Thoeny"],
+    "keywords": ["Diffusion", "Deep learning","Motion correction"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://notebook-factory.github.io/deep_ivim_book/intro"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/sebbarb/deep_ivim"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/deep_ivim_book"
+        }
+        ]
+},
+{
+    "title": "The use of Fourier‐domain analyses for unwrapping phase images of low SNR",
+    "category": "Phase imaging",
+    "shortDescription": "We report a new postprocessing procedure that uses Fourier‐domain data analyses to improve the accuracy and reliability of phase unwrapping for MRI data of low SNR.",
+    "imageFile": "https://github.com/Notebook-Factory/PhaseUnwrapping_book/blob/master/_site/images/vol82_1.jpg?raw=true",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27719",
+    "authors": ["Nan‐kuei Chen", "Pei‐Hsin Wu"],
+    "keywords": ["Diffusion", "Deep learning","Motion correction"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://notebook-factory.github.io/PhaseUnwrapping_book/intro"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/nankueichen/Fourier_space_phase_unwrapping"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/PhaseUnwrapping_book"
+        }
+        ]
+},
+{
+    "title": "Time‐optimized 4D phase contrast MRI with real‐time convex optimization of gradient waveforms and fast excitation methods",
+    "category": "Phase imaging",
+    "shortDescription": "To shorten 4D flow acquisitions by shortening TRs with fast RF pulses and gradient waveforms. Real‐time convex optimization is used to generate these gradients waveforms on the scanner.",
+    "imageFile": "https://github.com/Notebook-Factory/PhaseUnwrapping_book/blob/master/_site/images/vol82_1.jpg?raw=true",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27716",
+    "authors": ["Michael Loecher", "Daniel B. Ennis"],
+    "keywords": ["Gradients", "4D","PC"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://notebook-factory.github.io/cvxflow_book1/01Introduction/intro.html"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/mloecher/cvxflow"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/cvxflow_book1"
+        }
+        ]
+},
+{
+    "title": "Adaptive slice‐specific z‐shimming for 2D spoiled gradient‐echo sequences",
+    "category": "Phase imaging",
+    "shortDescription": "To reduce the misbalance between compensation gradients and macroscopic field gradients, we introduce an adaptive slice‐specific z‐shimming approach for 2D spoiled multi‐echo gradient‐echoe sequences in combination with modeling of the signal decay.",
+    "imageFile": "https://onlinelibrary.wiley.com/cms/asset/d6f80e2b-da90-49ef-9239-173562002899/mrm28468-fig-0001-m.png",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.28468",
+    "authors": ["Martin Soellradl", "Christian Langkammer"],
+    "keywords": ["Shimming", "GRE","Compensation"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"#"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/neuroimaging-mug/R2s-mapping"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/R2s_notebooks"
+        }
+        ]
+},
+{
+    "title": "Steady‐state imaging with inhomogeneous magnetization transfer contrast using multiband radiofrequency pulses",
+    "category": "Magnetization Transfer",
+    "shortDescription": "This study investigates the use of nonselective multiband radiofrequency pulses for simultaneous off‐resonance saturation and on‐resonance excitation specifically for generation of ihMT contrast within rapid steady‐state pulse sequences.",
+    "imageFile": "https://github.com/mriphysics/ihMT_steadystate/raw/master/figs/mb_fig.jpg",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27984",
+    "authors": ["Shaihan J. Malik","Joseph V. Hajnal"],
+    "keywords": ["ihMT", "Multi-band","steady-state"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27913",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://nbviewer.jupyter.org/github/Notebook-Factory/ihMT_notebooks/blob/main/domasno_notebook.ipynb"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/mriphysics/ihMT_steadystate"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/ihMT_notebooks"
+        }
+        ]
+},
+{
+    "title": "Fast multi‐component analysis using a joint sparsity constraint for MR fingerprinting",
+    "category": "Fingerprinting",
+    "shortDescription": "To develop an efficient algorithm for multi‐component analysis of magnetic resonance fingerprinting (MRF) data without making a priori assumptions about the exact number of tissues or their relaxation properties.",
+    "imageFile": "https://onlinelibrary.wiley.com/cms/asset/59c4c576-5673-4dbf-92cd-596d62508655/mrm27947-fig-0002-m.png",
+    "mainURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.27984",
+    "authors": ["Martijn Nagtegaal", "Mariya Doneva"],
+    "keywords": ["MRF", "Multi-component"],
+    "dateAddedToMRHub": "2019-05-10",
+    "citationSearchString": "10.1002/mrm.27947",
+    "citationCount": "",
+    "bookButton": [
+        {"URL":"https://nbviewer.jupyter.org/github/Notebook-Factory/SPIJN_notebooks/blob/main/SPINJ.ipynb"}
+    ],
+    "extraResources": [
+
+        {
+            "resourceType": "Article Repository",
+            "URL": "https://github.com/MNagtegaal/SPIJN"
+        },
+        {
+            "resourceType": "Book Repository",
+            "URL": "https://github.com/Notebook-Factory/SPIJN_notebooks"
+        }
+        ]
+}
+        
+
+]

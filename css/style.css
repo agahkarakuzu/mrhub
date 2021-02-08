@@ -23,9 +23,22 @@ div.projectname {
     color:#1d315b;    
 }
 
+div.pubname {
+  font-size: 110%;
+  font-weight: bold;
+  color:#1d315b;
+  text-align: left;    
+}
+
 div.projectdescription {
     color: darkslategray;
     font-style: italic;
+}
+
+div.pubdescription {
+  color: darkslategrey;
+  font-style: italic;
+  text-align: left;
 }
 
 span.projectinfolabel {
@@ -35,4 +48,83 @@ span.projectinfolabel {
 
 span.projectinfo {
     color:steelblue;
+}
+
+.btnfancy{
+  z-index: 0;
+}
+
+
+#featured img.featuredim{
+                          max-width: 100%; 
+                          max-height: 100px;
+                          transition: transform .2s;
+                          z-index: 5;
+                          position: relative;
+                          cursor: -webkit-zoom-in;
+                        }
+
+#featured img.featuredim:active{
+  transform: scale(4);
+
+}
+
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+  margin-bottom: 3px!important;
+}
+
+.tags li {
+  display: block;
+}
+
+.tag {
+  display: inline-block;
+  min-width: 10px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  padding: 3px 7px;
+  font-size: 5px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color:#1d315b;
+  border-radius: 10px;
+}
+
+.label{
+    display: inline;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: left;
+    vertical-align: baseline;
+    border-radius: .25em;
+    color: #337ab7;
+}
+
+.comma-list {
+  display: inline;
+  list-style: none;
+  padding: 0px;
+}
+
+.comma-list li {
+  display: inline;
+}
+
+.comma-list li::after {
+  content: ", ";
+}
+
+.comma-list li:last-child::after {
+  content: "";
 }
